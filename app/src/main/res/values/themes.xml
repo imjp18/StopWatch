@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.JayeshAssignment1" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:buttonStyle">@style/CustomButton</item>
+    </style>
+
+    <style name="CustomButton" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="CustomButton.Disabled">
+        <item name="android:backgroundTint">@color/disabled_button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+</resources>
